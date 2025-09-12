@@ -1,0 +1,1184 @@
+2025-09-11 14:37:07,577 | INFO | Bot ishga tushmoqda...
+2025-09-11 14:37:07,577 | INFO | Start polling
+2025-09-11 14:37:07,919 | INFO | Run polling for bot @Cambridge_qabul_bot id=8454294847 - 'Cambridge School qabul'
+2025-09-11 14:37:21,199 | INFO | Asked source question to user Master (6460533244)
+2025-09-11 14:37:21,200 | INFO | Update id=31748987 is handled. Duration 500 ms by bot id=8454294847
+2025-09-11 14:37:45,096 | ERROR | send_admin_new_user_partial failed
+Traceback (most recent call last):
+  File "C:\Dasturlash-2\Cambirdge_bot\main.py", line 404, in send_admin_new_user_partial
+    await bot.send_message(ADMIN_ID, text, parse_mode="Markdown")
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\bot.py", line 2854, in send_message
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\bot.py", line 482, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: chat not found
+2025-09-11 14:37:45,355 | INFO | Saved quick source for 6460533244: 📢 Telegram
+2025-09-11 14:37:45,358 | INFO | Update id=31748988 is handled. Duration 515 ms by bot id=8454294847
+2025-09-11 14:37:59,959 | INFO | Update id=31748989 is handled. Duration 250 ms by bot id=8454294847
+2025-09-11 14:38:02,333 | INFO | Update id=31748990 is handled. Duration 546 ms by bot id=8454294847
+2025-09-11 14:38:05,656 | INFO | Update id=31748991 is handled. Duration 500 ms by bot id=8454294847
+2025-09-11 14:41:07,527 | INFO | Polling stopped
+2025-09-11 14:41:07,530 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-09-11 14:41:07,531 | WARNING | Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8454294847)
+2025-09-11 14:41:07,787 | INFO | Polling stopped for bot @Cambridge_qabul_bot id=8454294847 - 'Cambridge School qabul'
+2025-09-11 14:41:11,336 | INFO | Bot ishga tushmoqda...
+2025-09-11 14:41:11,337 | INFO | Start polling
+2025-09-11 14:41:11,701 | INFO | Run polling for bot @Cambridge_qabul_bot id=8454294847 - 'Cambridge School qabul'
+2025-09-11 14:41:17,626 | INFO | Asked source question to user Master (6460533244)
+2025-09-11 14:41:17,627 | INFO | Update id=31748992 is handled. Duration 3390 ms by bot id=8454294847
+2025-09-11 14:41:21,623 | ERROR | send_admin_new_user_partial failed
+Traceback (most recent call last):
+  File "C:\Dasturlash-2\Cambirdge_bot\main.py", line 404, in send_admin_new_user_partial
+    await bot.send_message(ADMIN_ID, text, parse_mode="Markdown")
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\bot.py", line 2854, in send_message
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\bot.py", line 482, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: chat not found
+2025-09-11 14:41:21,908 | INFO | Saved quick source for 6460533244: 📸 Instagram
+2025-09-11 14:41:21,909 | INFO | Update id=31748993 is handled. Duration 578 ms by bot id=8454294847
+2025-09-11 14:41:30,297 | INFO | Update id=31748994 is handled. Duration 250 ms by bot id=8454294847
+2025-09-11 14:41:33,026 | ERROR | send_admin_full_record failed
+Traceback (most recent call last):
+  File "C:\Dasturlash-2\Cambirdge_bot\main.py", line 419, in send_admin_full_record
+    await bot.send_message(ADMIN_ID, text, parse_mode="Markdown")
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\bot.py", line 2854, in send_message
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\bot.py", line 482, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: chat not found
+2025-09-11 14:41:33,184 | INFO | Saved contact for user 6460533244
+2025-09-11 14:41:33,185 | INFO | Update id=31748995 is handled. Duration 639 ms by bot id=8454294847
+2025-09-11 15:13:10,471 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The semaphore timeout period has expired]
+2025-09-11 15:13:10,476 | WARNING | Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8454294847)
+2025-09-11 15:13:21,832 | INFO | Connection established (tryings = 1, bot id = 8454294847)
+2025-09-11 15:30:26,699 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The semaphore timeout period has expired]
+2025-09-11 15:30:26,702 | WARNING | Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8454294847)
+2025-09-11 15:30:38,051 | INFO | Connection established (tryings = 1, bot id = 8454294847)
+2025-09-11 15:43:58,265 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [WinError 1236] The network connection was aborted by the local system
+2025-09-11 15:43:58,279 | WARNING | Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8454294847)
+2025-09-11 15:43:59,326 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-09-11 15:43:59,328 | WARNING | Sleep for 1.250758 seconds and try again... (tryings = 1, bot id = 8454294847)
+2025-09-11 15:44:00,607 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-09-11 15:44:00,608 | WARNING | Sleep for 1.592778 seconds and try again... (tryings = 2, bot id = 8454294847)
+2025-09-11 15:44:02,206 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-09-11 15:44:02,207 | WARNING | Sleep for 1.988808 seconds and try again... (tryings = 3, bot id = 8454294847)
+2025-09-11 15:44:04,214 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-09-11 15:44:04,214 | WARNING | Sleep for 2.523264 seconds and try again... (tryings = 4, bot id = 8454294847)
+2025-09-11 15:44:46,349 | INFO | Connection established (tryings = 5, bot id = 8454294847)
+2025-09-11 15:45:30,648 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [WinError 1236] The network connection was aborted by the local system
+2025-09-11 15:45:30,663 | WARNING | Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8454294847)
+2025-09-11 15:45:31,686 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 15:45:31,686 | WARNING | Sleep for 1.163848 seconds and try again... (tryings = 1, bot id = 8454294847)
+2025-09-11 15:45:37,479 | INFO | Polling stopped
+2025-09-11 15:45:37,759 | INFO | Polling stopped for bot @Cambridge_qabul_bot id=8454294847 - 'Cambridge School qabul'
+2025-09-11 15:45:41,386 | INFO | Bot ishga tushmoqda...
+2025-09-11 15:45:41,387 | INFO | Start polling
+2025-09-11 15:45:41,753 | INFO | Polling stopped
+2025-09-11 15:45:46,300 | INFO | Bot ishga tushmoqda...
+2025-09-11 15:45:46,301 | INFO | Start polling
+2025-09-11 15:45:46,343 | INFO | Polling stopped
+2025-09-11 15:45:51,804 | INFO | Bot ishga tushmoqda...
+2025-09-11 15:45:51,804 | INFO | Start polling
+2025-09-11 15:45:51,822 | INFO | Polling stopped
+2025-09-11 15:45:58,641 | INFO | Bot ishga tushmoqda...
+2025-09-11 15:45:58,644 | INFO | Start polling
+2025-09-11 15:45:58,663 | INFO | Polling stopped
+2025-09-11 15:46:36,860 | INFO | Bot ishga tushmoqda...
+2025-09-11 15:46:36,861 | INFO | Start polling
+2025-09-11 15:46:37,155 | INFO | Polling stopped
+2025-09-11 15:46:41,981 | INFO | Bot ishga tushmoqda...
+2025-09-11 15:46:41,982 | INFO | Start polling
+2025-09-11 15:46:42,359 | INFO | Polling stopped
+2025-09-11 15:54:11,517 | INFO | Bot ishga tushmoqda...
+2025-09-11 15:54:11,518 | INFO | Start polling
+2025-09-11 15:54:11,988 | INFO | Run polling for bot @Cambridge_qabul_bot id=8454294847 - 'Cambridge School qabul'
+2025-09-11 15:54:12,499 | INFO | Asked source question to user Master (6460533244)
+2025-09-11 15:54:12,500 | INFO | Update id=31748996 is handled. Duration 391 ms by bot id=8454294847
+2025-09-11 16:05:20,933 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [WinError 1236] The network connection was aborted by the local system
+2025-09-11 16:05:20,941 | WARNING | Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8454294847)
+2025-09-11 16:05:21,947 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 16:05:21,955 | WARNING | Sleep for 1.272619 seconds and try again... (tryings = 1, bot id = 8454294847)
+2025-09-11 16:05:56,960 | INFO | Connection established (tryings = 2, bot id = 8454294847)
+2025-09-11 20:18:42,651 | INFO | Bot ishga tushmoqda...
+2025-09-11 20:18:42,651 | INFO | Start polling
+2025-09-11 20:18:43,013 | INFO | Run polling for bot @Cambridge_qabul_bot id=8454294847 - 'Cambridge School qabul'
+2025-09-11 20:20:45,957 | INFO | Asked source question to user Master (6460533244)
+2025-09-11 20:20:45,958 | INFO | Update id=31749002 is handled. Duration 375 ms by bot id=8454294847
+2025-09-11 20:21:14,772 | INFO | Polling stopped
+2025-09-11 20:21:14,776 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-09-11 20:21:14,777 | WARNING | Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8454294847)
+2025-09-11 20:21:15,033 | INFO | Polling stopped for bot @Cambridge_qabul_bot id=8454294847 - 'Cambridge School qabul'
+2025-09-11 20:22:21,042 | INFO | Bot ishga tushmoqda...
+2025-09-11 20:22:21,043 | INFO | Start polling
+2025-09-11 20:22:39,491 | INFO | Polling stopped
+2025-09-11 20:22:42,063 | INFO | Bot ishga tushmoqda...
+2025-09-11 20:22:42,064 | INFO | Start polling
+2025-09-11 20:22:45,451 | INFO | Run polling for bot @Cambridge_qabul_bot id=8454294847 - 'Cambridge School qabul'
+2025-09-11 20:22:56,311 | INFO | Polling stopped
+2025-09-11 20:22:56,313 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-09-11 20:22:56,313 | WARNING | Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8454294847)
+2025-09-11 20:22:56,572 | INFO | Update id=31749003 is not handled. Duration 11000 ms by bot id=8454294847
+2025-09-11 20:22:56,572 | INFO | Polling stopped for bot @Cambridge_qabul_bot id=8454294847 - 'Cambridge School qabul'
+2025-09-11 20:22:56,573 | INFO | Update id=31749005 is not handled. Duration 11000 ms by bot id=8454294847
+2025-09-11 20:22:56,574 | INFO | Update id=31749004 is not handled. Duration 11000 ms by bot id=8454294847
+2025-09-11 20:22:56,575 | INFO | Update id=31749006 is not handled. Duration 2640 ms by bot id=8454294847
+2025-09-11 20:22:58,858 | INFO | Bot ishga tushmoqda...
+2025-09-11 20:22:58,858 | INFO | Start polling
+2025-09-11 20:23:19,912 | INFO | Polling stopped
+2025-09-11 20:23:40,651 | INFO | Bot ishga tushmoqda...
+2025-09-11 20:23:40,652 | INFO | Start polling
+2025-09-11 20:23:41,032 | INFO | Run polling for bot @Cambridge_qabul_bot id=8454294847 - 'Cambridge School qabul'
+2025-09-11 20:23:51,799 | INFO | Asked source question to user Master (6460533244)
+2025-09-11 20:23:51,800 | INFO | Update id=31749007 is handled. Duration 500 ms by bot id=8454294847
+2025-09-11 20:24:01,681 | INFO | Asked source question to user Master (6460533244)
+2025-09-11 20:24:01,684 | INFO | Update id=31749008 is handled. Duration 250 ms by bot id=8454294847
+2025-09-11 20:26:18,676 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [WinError 1236] The network connection was aborted by the local system
+2025-09-11 20:26:18,687 | WARNING | Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8454294847)
+2025-09-11 20:26:19,706 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 20:26:19,711 | WARNING | Sleep for 1.375095 seconds and try again... (tryings = 1, bot id = 8454294847)
+2025-09-11 20:26:32,423 | INFO | Connection established (tryings = 2, bot id = 8454294847)
+2025-09-11 20:43:35,234 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The semaphore timeout period has expired]
+2025-09-11 20:43:35,235 | WARNING | Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8454294847)
+2025-09-11 20:43:46,563 | INFO | Connection established (tryings = 1, bot id = 8454294847)
+2025-09-11 20:45:49,333 | INFO | Polling stopped
+2025-09-11 20:45:49,335 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-09-11 20:45:49,337 | WARNING | Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8454294847)
+2025-09-11 20:45:49,595 | INFO | Update id=31749009 is not handled. Duration 4532 ms by bot id=8454294847
+2025-09-11 20:45:49,595 | INFO | Polling stopped for bot @Cambridge_qabul_bot id=8454294847 - 'Cambridge School qabul'
+2025-09-11 20:45:51,826 | INFO | Bot ishga tushmoqda...
+2025-09-11 20:45:51,828 | INFO | Start polling
+2025-09-11 20:46:12,900 | INFO | Polling stopped
+2025-09-11 20:46:21,432 | INFO | Bot ishga tushmoqda...
+2025-09-11 20:46:21,433 | INFO | Start polling
+2025-09-11 20:46:42,511 | INFO | Polling stopped
+2025-09-11 20:47:20,468 | INFO | Bot ishga tushmoqda...
+2025-09-11 20:47:20,468 | INFO | Start polling
+2025-09-11 20:47:20,871 | INFO | Run polling for bot @Cambridge_qabul_bot id=8454294847 - 'Cambridge School qabul'
+2025-09-11 20:47:23,960 | INFO | Asked source question to user Master (6460533244)
+2025-09-11 20:47:23,960 | INFO | Update id=31749012 is handled. Duration 359 ms by bot id=8454294847
+2025-09-11 20:47:42,035 | ERROR | start_cmd error: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The semaphore timeout period has expired]
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 1268, in _wrap_create_connection
+    sock = await aiohappyeyeballs.start_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohappyeyeballs\impl.py", line 122, in start_connection
+    raise first_exception
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohappyeyeballs\impl.py", line 73, in start_connection
+    sock = await _connect_sock(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohappyeyeballs\impl.py", line 208, in _connect_sock
+    await loop.sock_connect(sock, address)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\proactor_events.py", line 726, in sock_connect
+    return await self._proactor.connect(sock, address)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_events.py", line 854, in _poll
+    value = callback(transferred, key, ov)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_events.py", line 641, in finish_connect
+    ov.getresult()
+OSError: [WinError 121] The semaphore timeout period has expired
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\session\aiohttp.py", line 177, in make_request
+    async with session.post(
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\client.py", line 1488, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\client.py", line 770, in _request
+    resp = await handler(req)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\client.py", line 725, in _connect_and_send_request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 642, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 1209, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 1581, in _create_direct_connection
+    raise last_exc
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 1550, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 1291, in _wrap_create_connection
+    raise client_error(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The semaphore timeout period has expired]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Dasturlash-2\Cambirdge_bot\main.py", line 166, in start_cmd
+    await message.answer(
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\bot.py", line 482, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\session\aiohttp.py", line 184, in make_request
+    raise TelegramNetworkError(method=method, message=f"{type(e).__name__}: {e}")
+aiogram.exceptions.TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The semaphore timeout period has expired]
+2025-09-11 20:47:42,079 | INFO | Update id=31749010 is handled. Duration 21094 ms by bot id=8454294847
+2025-09-11 20:47:42,080 | ERROR | start_cmd error: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The semaphore timeout period has expired]
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 1268, in _wrap_create_connection
+    sock = await aiohappyeyeballs.start_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohappyeyeballs\impl.py", line 122, in start_connection
+    raise first_exception
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohappyeyeballs\impl.py", line 73, in start_connection
+    sock = await _connect_sock(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohappyeyeballs\impl.py", line 208, in _connect_sock
+    await loop.sock_connect(sock, address)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\proactor_events.py", line 726, in sock_connect
+    return await self._proactor.connect(sock, address)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_events.py", line 854, in _poll
+    value = callback(transferred, key, ov)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_events.py", line 641, in finish_connect
+    ov.getresult()
+OSError: [WinError 121] The semaphore timeout period has expired
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\session\aiohttp.py", line 177, in make_request
+    async with session.post(
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\client.py", line 1488, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\client.py", line 770, in _request
+    resp = await handler(req)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\client.py", line 725, in _connect_and_send_request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 642, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 1209, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 1581, in _create_direct_connection
+    raise last_exc
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 1550, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 1291, in _wrap_create_connection
+    raise client_error(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The semaphore timeout period has expired]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Dasturlash-2\Cambirdge_bot\main.py", line 166, in start_cmd
+    await message.answer(
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\bot.py", line 482, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\session\aiohttp.py", line 184, in make_request
+    raise TelegramNetworkError(method=method, message=f"{type(e).__name__}: {e}")
+aiogram.exceptions.TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The semaphore timeout period has expired]
+2025-09-11 20:47:42,083 | INFO | Update id=31749011 is handled. Duration 21078 ms by bot id=8454294847
+2025-09-11 20:47:54,145 | INFO | User 6460533244 selected 'other' for source
+2025-09-11 20:47:54,146 | INFO | Update id=31749013 is handled. Duration 1062 ms by bot id=8454294847
+2025-09-11 20:47:55,957 | ERROR | send_admin_new_user_partial failed
+Traceback (most recent call last):
+  File "C:\Dasturlash-2\Cambirdge_bot\main.py", line 404, in send_admin_new_user_partial
+    await bot.send_message(ADMIN_ID, text, parse_mode="Markdown")
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\bot.py", line 2854, in send_message
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\bot.py", line 482, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: chat not found
+2025-09-11 20:47:56,148 | INFO | Saved 'other' source for 6460533244: 📝 akam
+2025-09-11 20:47:56,149 | INFO | Update id=31749014 is handled. Duration 546 ms by bot id=8454294847
+2025-09-11 20:48:12,642 | INFO | Update id=31749015 is handled. Duration 3031 ms by bot id=8454294847
+2025-09-11 20:48:36,443 | INFO | Update id=31749016 is handled. Duration 327 ms by bot id=8454294847
+2025-09-11 20:48:46,071 | INFO | Update id=31749017 is handled. Duration 547 ms by bot id=8454294847
+2025-09-11 20:48:51,482 | INFO | Update id=31749018 is handled. Duration 2093 ms by bot id=8454294847
+2025-09-11 20:48:54,943 | INFO | Update id=31749019 is handled. Duration 639 ms by bot id=8454294847
+2025-09-11 20:48:59,505 | INFO | Update id=31749020 is handled. Duration 984 ms by bot id=8454294847
+2025-09-11 20:49:08,760 | INFO | Update id=31749021 is handled. Duration 1329 ms by bot id=8454294847
+2025-09-11 20:49:13,837 | INFO | Update id=31749022 is handled. Duration 797 ms by bot id=8454294847
+2025-09-11 20:50:38,721 | INFO | Polling stopped
+2025-09-11 20:50:38,724 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-09-11 20:50:38,724 | WARNING | Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8454294847)
+2025-09-11 20:50:38,981 | INFO | Polling stopped for bot @Cambridge_qabul_bot id=8454294847 - 'Cambridge School qabul'
+2025-09-11 20:51:44,114 | INFO | Bot ishga tushmoqda...
+2025-09-11 20:51:44,115 | INFO | Start polling
+2025-09-11 20:52:05,232 | INFO | Polling stopped
+2025-09-11 20:53:56,054 | INFO | Bot ishga tushmoqda...
+2025-09-11 20:53:56,055 | INFO | Start polling
+2025-09-11 20:53:59,473 | INFO | Run polling for bot @Cambridge_qabul_bot id=8454294847 - 'Cambridge School qabul'
+2025-09-11 20:54:08,785 | ERROR | start_cmd error: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network connection was aborted by the local system]
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 1268, in _wrap_create_connection
+    sock = await aiohappyeyeballs.start_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohappyeyeballs\impl.py", line 122, in start_connection
+    raise first_exception
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohappyeyeballs\impl.py", line 73, in start_connection
+    sock = await _connect_sock(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohappyeyeballs\impl.py", line 208, in _connect_sock
+    await loop.sock_connect(sock, address)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\proactor_events.py", line 726, in sock_connect
+    return await self._proactor.connect(sock, address)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_events.py", line 854, in _poll
+    value = callback(transferred, key, ov)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_events.py", line 641, in finish_connect
+    ov.getresult()
+ConnectionAbortedError: [WinError 1236] The network connection was aborted by the local system
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\session\aiohttp.py", line 177, in make_request
+    async with session.post(
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\client.py", line 1488, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\client.py", line 770, in _request
+    resp = await handler(req)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\client.py", line 725, in _connect_and_send_request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 642, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 1209, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 1581, in _create_direct_connection
+    raise last_exc
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 1550, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 1291, in _wrap_create_connection
+    raise client_error(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network connection was aborted by the local system]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Dasturlash-2\Cambirdge_bot\main.py", line 166, in start_cmd
+    await message.answer(
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\bot.py", line 482, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\session\aiohttp.py", line 184, in make_request
+    raise TelegramNetworkError(method=method, message=f"{type(e).__name__}: {e}")
+aiogram.exceptions.TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network connection was aborted by the local system]
+2025-09-11 20:54:08,815 | INFO | Update id=31749024 is handled. Duration 9217 ms by bot id=8454294847
+2025-09-11 20:54:08,819 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [WinError 1236] The network connection was aborted by the local system
+2025-09-11 20:54:08,822 | WARNING | Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8454294847)
+2025-09-11 20:54:09,835 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 20:54:09,836 | WARNING | Sleep for 1.393133 seconds and try again... (tryings = 1, bot id = 8454294847)
+2025-09-11 20:54:21,650 | INFO | Polling stopped
+2025-09-11 20:54:21,904 | INFO | Polling stopped for bot @Cambridge_qabul_bot id=8454294847 - 'Cambridge School qabul'
+2025-09-11 20:54:25,459 | INFO | Bot ishga tushmoqda...
+2025-09-11 20:54:25,460 | INFO | Start polling
+2025-09-11 20:54:41,528 | INFO | Polling stopped
+2025-09-11 20:57:28,443 | INFO | Bot ishga tushmoqda...
+2025-09-11 20:57:28,443 | INFO | Start polling
+2025-09-11 20:57:29,136 | INFO | Run polling for bot @Cambridge_qabul_bot id=8454294847 - 'Cambridge School qabul'
+2025-09-11 20:57:29,656 | INFO | Asked source question to user ㅤㅤㅤㅤㅤㅤㅤㅤㅤ ㅤ (8030081833)
+2025-09-11 20:57:29,656 | INFO | Update id=31749030 is handled. Duration 389 ms by bot id=8454294847
+2025-09-11 20:57:50,287 | ERROR | start_cmd error: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The semaphore timeout period has expired]
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 1268, in _wrap_create_connection
+    sock = await aiohappyeyeballs.start_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohappyeyeballs\impl.py", line 122, in start_connection
+    raise first_exception
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohappyeyeballs\impl.py", line 73, in start_connection
+    sock = await _connect_sock(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohappyeyeballs\impl.py", line 208, in _connect_sock
+    await loop.sock_connect(sock, address)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\proactor_events.py", line 726, in sock_connect
+    return await self._proactor.connect(sock, address)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_events.py", line 854, in _poll
+    value = callback(transferred, key, ov)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_events.py", line 641, in finish_connect
+    ov.getresult()
+OSError: [WinError 121] The semaphore timeout period has expired
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\session\aiohttp.py", line 177, in make_request
+    async with session.post(
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\client.py", line 1488, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\client.py", line 770, in _request
+    resp = await handler(req)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\client.py", line 725, in _connect_and_send_request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 642, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 1209, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 1581, in _create_direct_connection
+    raise last_exc
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 1550, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 1291, in _wrap_create_connection
+    raise client_error(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The semaphore timeout period has expired]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Dasturlash-2\Cambirdge_bot\main.py", line 166, in start_cmd
+    await message.answer(
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\bot.py", line 482, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\session\aiohttp.py", line 184, in make_request
+    raise TelegramNetworkError(method=method, message=f"{type(e).__name__}: {e}")
+aiogram.exceptions.TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The semaphore timeout period has expired]
+2025-09-11 20:57:50,296 | INFO | Update id=31749025 is handled. Duration 21046 ms by bot id=8454294847
+2025-09-11 20:57:50,297 | ERROR | start_cmd error: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The semaphore timeout period has expired]
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 1268, in _wrap_create_connection
+    sock = await aiohappyeyeballs.start_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohappyeyeballs\impl.py", line 122, in start_connection
+    raise first_exception
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohappyeyeballs\impl.py", line 73, in start_connection
+    sock = await _connect_sock(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohappyeyeballs\impl.py", line 208, in _connect_sock
+    await loop.sock_connect(sock, address)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\proactor_events.py", line 726, in sock_connect
+    return await self._proactor.connect(sock, address)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_events.py", line 854, in _poll
+    value = callback(transferred, key, ov)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_events.py", line 641, in finish_connect
+    ov.getresult()
+OSError: [WinError 121] The semaphore timeout period has expired
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\session\aiohttp.py", line 177, in make_request
+    async with session.post(
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\client.py", line 1488, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\client.py", line 770, in _request
+    resp = await handler(req)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\client.py", line 725, in _connect_and_send_request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 642, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 1209, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 1581, in _create_direct_connection
+    raise last_exc
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 1550, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 1291, in _wrap_create_connection
+    raise client_error(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The semaphore timeout period has expired]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Dasturlash-2\Cambirdge_bot\main.py", line 166, in start_cmd
+    await message.answer(
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\bot.py", line 482, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\session\aiohttp.py", line 184, in make_request
+    raise TelegramNetworkError(method=method, message=f"{type(e).__name__}: {e}")
+aiogram.exceptions.TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The semaphore timeout period has expired]
+2025-09-11 20:57:50,299 | INFO | Update id=31749026 is handled. Duration 21030 ms by bot id=8454294847
+2025-09-11 20:57:50,300 | ERROR | start_cmd error: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The semaphore timeout period has expired]
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 1268, in _wrap_create_connection
+    sock = await aiohappyeyeballs.start_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohappyeyeballs\impl.py", line 122, in start_connection
+    raise first_exception
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohappyeyeballs\impl.py", line 73, in start_connection
+    sock = await _connect_sock(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohappyeyeballs\impl.py", line 208, in _connect_sock
+    await loop.sock_connect(sock, address)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\proactor_events.py", line 726, in sock_connect
+    return await self._proactor.connect(sock, address)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_events.py", line 854, in _poll
+    value = callback(transferred, key, ov)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_events.py", line 641, in finish_connect
+    ov.getresult()
+OSError: [WinError 121] The semaphore timeout period has expired
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\session\aiohttp.py", line 177, in make_request
+    async with session.post(
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\client.py", line 1488, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\client.py", line 770, in _request
+    resp = await handler(req)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\client.py", line 725, in _connect_and_send_request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 642, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 1209, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 1581, in _create_direct_connection
+    raise last_exc
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 1550, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 1291, in _wrap_create_connection
+    raise client_error(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The semaphore timeout period has expired]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Dasturlash-2\Cambirdge_bot\main.py", line 166, in start_cmd
+    await message.answer(
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\bot.py", line 482, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\session\aiohttp.py", line 184, in make_request
+    raise TelegramNetworkError(method=method, message=f"{type(e).__name__}: {e}")
+aiogram.exceptions.TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The semaphore timeout period has expired]
+2025-09-11 20:57:50,304 | INFO | Update id=31749027 is handled. Duration 21030 ms by bot id=8454294847
+2025-09-11 20:57:50,305 | ERROR | start_cmd error: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The semaphore timeout period has expired]
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 1268, in _wrap_create_connection
+    sock = await aiohappyeyeballs.start_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohappyeyeballs\impl.py", line 122, in start_connection
+    raise first_exception
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohappyeyeballs\impl.py", line 73, in start_connection
+    sock = await _connect_sock(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohappyeyeballs\impl.py", line 208, in _connect_sock
+    await loop.sock_connect(sock, address)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\proactor_events.py", line 726, in sock_connect
+    return await self._proactor.connect(sock, address)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_events.py", line 854, in _poll
+    value = callback(transferred, key, ov)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_events.py", line 641, in finish_connect
+    ov.getresult()
+OSError: [WinError 121] The semaphore timeout period has expired
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\session\aiohttp.py", line 177, in make_request
+    async with session.post(
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\client.py", line 1488, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\client.py", line 770, in _request
+    resp = await handler(req)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\client.py", line 725, in _connect_and_send_request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 642, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 1209, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 1581, in _create_direct_connection
+    raise last_exc
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 1550, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 1291, in _wrap_create_connection
+    raise client_error(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The semaphore timeout period has expired]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Dasturlash-2\Cambirdge_bot\main.py", line 166, in start_cmd
+    await message.answer(
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\bot.py", line 482, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\session\aiohttp.py", line 184, in make_request
+    raise TelegramNetworkError(method=method, message=f"{type(e).__name__}: {e}")
+aiogram.exceptions.TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The semaphore timeout period has expired]
+2025-09-11 20:57:50,308 | INFO | Update id=31749028 is handled. Duration 21045 ms by bot id=8454294847
+2025-09-11 20:57:50,309 | ERROR | start_cmd error: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The semaphore timeout period has expired]
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 1268, in _wrap_create_connection
+    sock = await aiohappyeyeballs.start_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohappyeyeballs\impl.py", line 122, in start_connection
+    raise first_exception
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohappyeyeballs\impl.py", line 73, in start_connection
+    sock = await _connect_sock(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohappyeyeballs\impl.py", line 208, in _connect_sock
+    await loop.sock_connect(sock, address)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\proactor_events.py", line 726, in sock_connect
+    return await self._proactor.connect(sock, address)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_events.py", line 854, in _poll
+    value = callback(transferred, key, ov)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_events.py", line 641, in finish_connect
+    ov.getresult()
+OSError: [WinError 121] The semaphore timeout period has expired
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\session\aiohttp.py", line 177, in make_request
+    async with session.post(
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\client.py", line 1488, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\client.py", line 770, in _request
+    resp = await handler(req)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\client.py", line 725, in _connect_and_send_request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 642, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 1209, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 1581, in _create_direct_connection
+    raise last_exc
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 1550, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 1291, in _wrap_create_connection
+    raise client_error(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The semaphore timeout period has expired]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Dasturlash-2\Cambirdge_bot\main.py", line 166, in start_cmd
+    await message.answer(
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\bot.py", line 482, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\session\aiohttp.py", line 184, in make_request
+    raise TelegramNetworkError(method=method, message=f"{type(e).__name__}: {e}")
+aiogram.exceptions.TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The semaphore timeout period has expired]
+2025-09-11 20:57:50,312 | INFO | Update id=31749029 is handled. Duration 21045 ms by bot id=8454294847
+2025-09-11 20:57:50,312 | ERROR | start_cmd error: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The semaphore timeout period has expired]
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 1268, in _wrap_create_connection
+    sock = await aiohappyeyeballs.start_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohappyeyeballs\impl.py", line 122, in start_connection
+    raise first_exception
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohappyeyeballs\impl.py", line 73, in start_connection
+    sock = await _connect_sock(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohappyeyeballs\impl.py", line 208, in _connect_sock
+    await loop.sock_connect(sock, address)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\proactor_events.py", line 726, in sock_connect
+    return await self._proactor.connect(sock, address)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_events.py", line 854, in _poll
+    value = callback(transferred, key, ov)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_events.py", line 641, in finish_connect
+    ov.getresult()
+OSError: [WinError 121] The semaphore timeout period has expired
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\session\aiohttp.py", line 177, in make_request
+    async with session.post(
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\client.py", line 1488, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\client.py", line 770, in _request
+    resp = await handler(req)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\client.py", line 725, in _connect_and_send_request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 642, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 1209, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 1581, in _create_direct_connection
+    raise last_exc
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 1550, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiohttp\connector.py", line 1291, in _wrap_create_connection
+    raise client_error(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The semaphore timeout period has expired]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Dasturlash-2\Cambirdge_bot\main.py", line 166, in start_cmd
+    await message.answer(
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\bot.py", line 482, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\session\aiohttp.py", line 184, in make_request
+    raise TelegramNetworkError(method=method, message=f"{type(e).__name__}: {e}")
+aiogram.exceptions.TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The semaphore timeout period has expired]
+2025-09-11 20:57:50,316 | INFO | Update id=31749031 is handled. Duration 21045 ms by bot id=8454294847
+2025-09-11 20:58:06,192 | INFO | Asked source question to user Master (6460533244)
+2025-09-11 20:58:06,194 | INFO | Update id=31749032 is handled. Duration 170 ms by bot id=8454294847
+2025-09-11 20:58:35,859 | ERROR | send_admin_new_user_partial failed
+Traceback (most recent call last):
+  File "C:\Dasturlash-2\Cambirdge_bot\main.py", line 404, in send_admin_new_user_partial
+    await bot.send_message(ADMIN_ID, text, parse_mode="Markdown")
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\bot.py", line 2854, in send_message
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\bot.py", line 482, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: chat not found
+2025-09-11 20:58:36,297 | INFO | Saved quick source for 6460533244: 📢 Telegram
+2025-09-11 20:58:36,298 | INFO | Update id=31749033 is handled. Duration 952 ms by bot id=8454294847
+2025-09-11 20:58:46,920 | INFO | Update id=31749034 is handled. Duration 2250 ms by bot id=8454294847
+2025-09-11 20:59:20,498 | INFO | Update id=31749035 is handled. Duration 421 ms by bot id=8454294847
+2025-09-11 20:59:22,382 | INFO | Update id=31749036 is handled. Duration 655 ms by bot id=8454294847
+2025-09-11 20:59:26,159 | INFO | Update id=31749037 is handled. Duration 530 ms by bot id=8454294847
+2025-09-11 20:59:39,104 | INFO | Update id=31749038 is handled. Duration 312 ms by bot id=8454294847
+2025-09-11 20:59:52,846 | INFO | Update id=31749039 is handled. Duration 453 ms by bot id=8454294847
+2025-09-11 21:00:18,400 | INFO | Update id=31749040 is handled. Duration 327 ms by bot id=8454294847
+2025-09-11 21:00:22,220 | INFO | Update id=31749041 is handled. Duration 797 ms by bot id=8454294847
+2025-09-11 21:00:32,886 | INFO | Update id=31749042 is handled. Duration 390 ms by bot id=8454294847
+2025-09-11 21:00:39,788 | ERROR | send_admin_full_record failed
+Traceback (most recent call last):
+  File "C:\Dasturlash-2\Cambirdge_bot\main.py", line 419, in send_admin_full_record
+    await bot.send_message(ADMIN_ID, text, parse_mode="Markdown")
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\bot.py", line 2854, in send_message
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\bot.py", line 482, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: chat not found
+2025-09-11 21:00:40,124 | INFO | Saved contact for user 6460533244
+2025-09-11 21:00:40,124 | INFO | Update id=31749043 is handled. Duration 984 ms by bot id=8454294847
+2025-09-11 21:23:35,952 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [WinError 1236] The network connection was aborted by the local system
+2025-09-11 21:23:35,966 | WARNING | Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8454294847)
+2025-09-11 21:23:36,988 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:23:36,989 | WARNING | Sleep for 1.234329 seconds and try again... (tryings = 1, bot id = 8454294847)
+2025-09-11 21:23:38,237 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:23:38,238 | WARNING | Sleep for 1.564859 seconds and try again... (tryings = 2, bot id = 8454294847)
+2025-09-11 21:23:39,820 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:23:39,821 | WARNING | Sleep for 1.937231 seconds and try again... (tryings = 3, bot id = 8454294847)
+2025-09-11 21:23:41,771 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:23:41,773 | WARNING | Sleep for 2.447081 seconds and try again... (tryings = 4, bot id = 8454294847)
+2025-09-11 21:23:44,223 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:23:44,227 | WARNING | Sleep for 3.258455 seconds and try again... (tryings = 5, bot id = 8454294847)
+2025-09-11 21:23:47,497 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:23:47,499 | WARNING | Sleep for 4.249321 seconds and try again... (tryings = 6, bot id = 8454294847)
+2025-09-11 21:23:51,746 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:23:51,747 | WARNING | Sleep for 5.043144 seconds and try again... (tryings = 7, bot id = 8454294847)
+2025-09-11 21:23:56,805 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:23:56,806 | WARNING | Sleep for 5.127350 seconds and try again... (tryings = 8, bot id = 8454294847)
+2025-09-11 21:24:01,949 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:24:01,950 | WARNING | Sleep for 4.979173 seconds and try again... (tryings = 9, bot id = 8454294847)
+2025-09-11 21:24:27,975 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The semaphore timeout period has expired]
+2025-09-11 21:24:27,977 | WARNING | Sleep for 5.037324 seconds and try again... (tryings = 10, bot id = 8454294847)
+2025-09-11 21:24:47,249 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network connection was aborted by the local system]
+2025-09-11 21:24:47,263 | WARNING | Sleep for 5.010133 seconds and try again... (tryings = 11, bot id = 8454294847)
+2025-09-11 21:24:52,301 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:24:52,302 | WARNING | Sleep for 4.992974 seconds and try again... (tryings = 12, bot id = 8454294847)
+2025-09-11 21:24:57,304 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:24:57,304 | WARNING | Sleep for 5.129436 seconds and try again... (tryings = 13, bot id = 8454294847)
+2025-09-11 21:25:02,446 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:25:02,447 | WARNING | Sleep for 5.112690 seconds and try again... (tryings = 14, bot id = 8454294847)
+2025-09-11 21:25:07,570 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:25:07,573 | WARNING | Sleep for 4.983062 seconds and try again... (tryings = 15, bot id = 8454294847)
+2025-09-11 21:25:12,558 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:25:12,559 | WARNING | Sleep for 4.977489 seconds and try again... (tryings = 16, bot id = 8454294847)
+2025-09-11 21:25:17,553 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:25:17,553 | WARNING | Sleep for 4.940459 seconds and try again... (tryings = 17, bot id = 8454294847)
+2025-09-11 21:25:22,511 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:25:22,513 | WARNING | Sleep for 5.002476 seconds and try again... (tryings = 18, bot id = 8454294847)
+2025-09-11 21:25:27,526 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:25:27,527 | WARNING | Sleep for 4.996618 seconds and try again... (tryings = 19, bot id = 8454294847)
+2025-09-11 21:25:32,538 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:25:32,542 | WARNING | Sleep for 5.059732 seconds and try again... (tryings = 20, bot id = 8454294847)
+2025-09-11 21:25:58,666 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The semaphore timeout period has expired]
+2025-09-11 21:25:58,667 | WARNING | Sleep for 5.097554 seconds and try again... (tryings = 21, bot id = 8454294847)
+2025-09-11 21:26:24,825 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The semaphore timeout period has expired]
+2025-09-11 21:26:24,826 | WARNING | Sleep for 4.857733 seconds and try again... (tryings = 22, bot id = 8454294847)
+2025-09-11 21:26:50,739 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The semaphore timeout period has expired]
+2025-09-11 21:26:50,740 | WARNING | Sleep for 5.006756 seconds and try again... (tryings = 23, bot id = 8454294847)
+2025-09-11 21:27:16,791 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The semaphore timeout period has expired]
+2025-09-11 21:27:16,792 | WARNING | Sleep for 5.061631 seconds and try again... (tryings = 24, bot id = 8454294847)
+2025-09-11 21:27:42,903 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The semaphore timeout period has expired]
+2025-09-11 21:27:42,903 | WARNING | Sleep for 5.010307 seconds and try again... (tryings = 25, bot id = 8454294847)
+2025-09-11 21:28:08,967 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The semaphore timeout period has expired]
+2025-09-11 21:28:08,970 | WARNING | Sleep for 4.860413 seconds and try again... (tryings = 26, bot id = 8454294847)
+2025-09-11 21:28:27,233 | INFO | Connection established (tryings = 27, bot id = 8454294847)
+2025-09-11 21:31:45,126 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [WinError 1236] The network connection was aborted by the local system
+2025-09-11 21:31:45,134 | WARNING | Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8454294847)
+2025-09-11 21:31:46,140 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:31:46,143 | WARNING | Sleep for 1.311553 seconds and try again... (tryings = 1, bot id = 8454294847)
+2025-09-11 21:31:47,459 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:31:47,460 | WARNING | Sleep for 1.736657 seconds and try again... (tryings = 2, bot id = 8454294847)
+2025-09-11 21:31:49,200 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:31:49,201 | WARNING | Sleep for 2.267562 seconds and try again... (tryings = 3, bot id = 8454294847)
+2025-09-11 21:32:12,529 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The semaphore timeout period has expired]
+2025-09-11 21:32:12,530 | WARNING | Sleep for 3.051438 seconds and try again... (tryings = 4, bot id = 8454294847)
+2025-09-11 21:32:36,654 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The semaphore timeout period has expired]
+2025-09-11 21:32:36,655 | WARNING | Sleep for 4.027457 seconds and try again... (tryings = 5, bot id = 8454294847)
+2025-09-11 21:33:01,728 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The semaphore timeout period has expired]
+2025-09-11 21:33:01,729 | WARNING | Sleep for 5.018936 seconds and try again... (tryings = 6, bot id = 8454294847)
+2025-09-11 21:33:27,794 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The semaphore timeout period has expired]
+2025-09-11 21:33:27,795 | WARNING | Sleep for 5.134139 seconds and try again... (tryings = 7, bot id = 8454294847)
+2025-09-11 21:33:43,421 | INFO | Connection established (tryings = 8, bot id = 8454294847)
+2025-09-11 21:35:56,793 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-09-11 21:35:56,794 | WARNING | Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8454294847)
+2025-09-11 21:36:09,235 | INFO | Connection established (tryings = 1, bot id = 8454294847)
+2025-09-11 21:38:38,796 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [WinError 1236] The network connection was aborted by the local system
+2025-09-11 21:38:38,804 | WARNING | Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8454294847)
+2025-09-11 21:38:39,816 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:38:39,817 | WARNING | Sleep for 1.314746 seconds and try again... (tryings = 1, bot id = 8454294847)
+2025-09-11 21:38:41,142 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:38:41,144 | WARNING | Sleep for 1.684107 seconds and try again... (tryings = 2, bot id = 8454294847)
+2025-09-11 21:38:42,839 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:38:42,841 | WARNING | Sleep for 2.058047 seconds and try again... (tryings = 3, bot id = 8454294847)
+2025-09-11 21:38:44,913 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:38:44,915 | WARNING | Sleep for 2.557864 seconds and try again... (tryings = 4, bot id = 8454294847)
+2025-09-11 21:38:47,491 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:38:47,494 | WARNING | Sleep for 3.140936 seconds and try again... (tryings = 5, bot id = 8454294847)
+2025-09-11 21:38:50,645 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:38:50,646 | WARNING | Sleep for 4.036211 seconds and try again... (tryings = 6, bot id = 8454294847)
+2025-09-11 21:38:54,686 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:38:54,688 | WARNING | Sleep for 4.989883 seconds and try again... (tryings = 7, bot id = 8454294847)
+2025-09-11 21:38:59,696 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:38:59,699 | WARNING | Sleep for 4.923998 seconds and try again... (tryings = 8, bot id = 8454294847)
+2025-09-11 21:39:04,627 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:39:04,628 | WARNING | Sleep for 5.281948 seconds and try again... (tryings = 9, bot id = 8454294847)
+2025-09-11 21:39:09,923 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:39:09,924 | WARNING | Sleep for 5.122254 seconds and try again... (tryings = 10, bot id = 8454294847)
+2025-09-11 21:39:15,057 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:39:15,058 | WARNING | Sleep for 5.135132 seconds and try again... (tryings = 11, bot id = 8454294847)
+2025-09-11 21:39:20,210 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:39:20,210 | WARNING | Sleep for 4.957553 seconds and try again... (tryings = 12, bot id = 8454294847)
+2025-09-11 21:39:25,177 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:39:25,177 | WARNING | Sleep for 4.931076 seconds and try again... (tryings = 13, bot id = 8454294847)
+2025-09-11 21:39:30,127 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:39:30,127 | WARNING | Sleep for 4.925417 seconds and try again... (tryings = 14, bot id = 8454294847)
+2025-09-11 21:39:35,069 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:39:35,070 | WARNING | Sleep for 4.827156 seconds and try again... (tryings = 15, bot id = 8454294847)
+2025-09-11 21:39:39,912 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:39:39,914 | WARNING | Sleep for 5.034664 seconds and try again... (tryings = 16, bot id = 8454294847)
+2025-09-11 21:39:44,953 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:39:44,954 | WARNING | Sleep for 5.044832 seconds and try again... (tryings = 17, bot id = 8454294847)
+2025-09-11 21:39:50,012 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:39:50,012 | WARNING | Sleep for 4.803036 seconds and try again... (tryings = 18, bot id = 8454294847)
+2025-09-11 21:39:54,819 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:39:54,820 | WARNING | Sleep for 4.983003 seconds and try again... (tryings = 19, bot id = 8454294847)
+2025-09-11 21:40:19,805 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network connection was aborted by the local system]
+2025-09-11 21:40:19,810 | WARNING | Sleep for 4.935891 seconds and try again... (tryings = 20, bot id = 8454294847)
+2025-09-11 21:40:45,802 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The semaphore timeout period has expired]
+2025-09-11 21:40:45,802 | WARNING | Sleep for 4.991830 seconds and try again... (tryings = 21, bot id = 8454294847)
+2025-09-11 21:41:01,159 | INFO | Connection established (tryings = 22, bot id = 8454294847)
+2025-09-11 21:44:29,372 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [WinError 1236] The network connection was aborted by the local system
+2025-09-11 21:44:29,383 | WARNING | Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8454294847)
+2025-09-11 21:44:30,392 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:44:30,394 | WARNING | Sleep for 1.048030 seconds and try again... (tryings = 1, bot id = 8454294847)
+2025-09-11 21:44:31,452 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:44:31,453 | WARNING | Sleep for 1.453925 seconds and try again... (tryings = 2, bot id = 8454294847)
+2025-09-11 21:44:32,915 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:44:32,917 | WARNING | Sleep for 1.956470 seconds and try again... (tryings = 3, bot id = 8454294847)
+2025-09-11 21:44:34,889 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:44:34,890 | WARNING | Sleep for 2.453211 seconds and try again... (tryings = 4, bot id = 8454294847)
+2025-09-11 21:44:37,355 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:44:37,356 | WARNING | Sleep for 3.258972 seconds and try again... (tryings = 5, bot id = 8454294847)
+2025-09-11 21:44:40,625 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:44:40,626 | WARNING | Sleep for 4.257369 seconds and try again... (tryings = 6, bot id = 8454294847)
+2025-09-11 21:44:44,893 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:44:44,895 | WARNING | Sleep for 5.049585 seconds and try again... (tryings = 7, bot id = 8454294847)
+2025-09-11 21:44:49,949 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:44:49,951 | WARNING | Sleep for 5.232292 seconds and try again... (tryings = 8, bot id = 8454294847)
+2025-09-11 21:44:55,203 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:44:55,204 | WARNING | Sleep for 4.969708 seconds and try again... (tryings = 9, bot id = 8454294847)
+2025-09-11 21:45:00,179 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:45:00,182 | WARNING | Sleep for 4.922980 seconds and try again... (tryings = 10, bot id = 8454294847)
+2025-09-11 21:45:05,112 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:45:05,114 | WARNING | Sleep for 5.024450 seconds and try again... (tryings = 11, bot id = 8454294847)
+2025-09-11 21:45:10,153 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:45:10,154 | WARNING | Sleep for 4.739012 seconds and try again... (tryings = 12, bot id = 8454294847)
+2025-09-11 21:45:14,899 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:45:14,900 | WARNING | Sleep for 4.769369 seconds and try again... (tryings = 13, bot id = 8454294847)
+2025-09-11 21:45:19,676 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:45:19,677 | WARNING | Sleep for 4.930273 seconds and try again... (tryings = 14, bot id = 8454294847)
+2025-09-11 21:45:24,612 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:45:24,613 | WARNING | Sleep for 5.019333 seconds and try again... (tryings = 15, bot id = 8454294847)
+2025-09-11 21:45:29,647 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:45:29,648 | WARNING | Sleep for 5.079313 seconds and try again... (tryings = 16, bot id = 8454294847)
+2025-09-11 21:45:34,731 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:45:34,732 | WARNING | Sleep for 5.092223 seconds and try again... (tryings = 17, bot id = 8454294847)
+2025-09-11 21:45:39,838 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:45:39,839 | WARNING | Sleep for 5.012942 seconds and try again... (tryings = 18, bot id = 8454294847)
+2025-09-11 21:45:44,861 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:45:44,862 | WARNING | Sleep for 4.901275 seconds and try again... (tryings = 19, bot id = 8454294847)
+2025-09-11 21:45:49,774 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:45:49,775 | WARNING | Sleep for 5.070239 seconds and try again... (tryings = 20, bot id = 8454294847)
+2025-09-11 21:45:54,859 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:45:54,860 | WARNING | Sleep for 5.024759 seconds and try again... (tryings = 21, bot id = 8454294847)
+2025-09-11 21:45:59,901 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:45:59,902 | WARNING | Sleep for 4.872442 seconds and try again... (tryings = 22, bot id = 8454294847)
+2025-09-11 21:46:04,783 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:46:04,783 | WARNING | Sleep for 4.980580 seconds and try again... (tryings = 23, bot id = 8454294847)
+2025-09-11 21:46:30,812 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The semaphore timeout period has expired]
+2025-09-11 21:46:30,813 | WARNING | Sleep for 5.025151 seconds and try again... (tryings = 24, bot id = 8454294847)
+2025-09-11 21:46:56,899 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The semaphore timeout period has expired]
+2025-09-11 21:46:56,900 | WARNING | Sleep for 5.159373 seconds and try again... (tryings = 25, bot id = 8454294847)
+2025-09-11 21:47:23,098 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The semaphore timeout period has expired]
+2025-09-11 21:47:23,104 | WARNING | Sleep for 5.074627 seconds and try again... (tryings = 26, bot id = 8454294847)
+2025-09-11 21:47:41,725 | INFO | Connection established (tryings = 27, bot id = 8454294847)
+2025-09-11 21:53:46,056 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [WinError 1236] The network connection was aborted by the local system
+2025-09-11 21:53:46,062 | WARNING | Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8454294847)
+2025-09-11 21:53:47,085 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:53:47,085 | WARNING | Sleep for 1.243689 seconds and try again... (tryings = 1, bot id = 8454294847)
+2025-09-11 21:53:48,349 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:53:48,350 | WARNING | Sleep for 1.654249 seconds and try again... (tryings = 2, bot id = 8454294847)
+2025-09-11 21:53:49,999 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:53:50,001 | WARNING | Sleep for 1.993961 seconds and try again... (tryings = 3, bot id = 8454294847)
+2025-09-11 21:53:51,997 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:53:52,002 | WARNING | Sleep for 2.554095 seconds and try again... (tryings = 4, bot id = 8454294847)
+2025-09-11 21:53:54,560 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:53:54,561 | WARNING | Sleep for 3.284998 seconds and try again... (tryings = 5, bot id = 8454294847)
+2025-09-11 21:53:57,860 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:53:57,861 | WARNING | Sleep for 4.165921 seconds and try again... (tryings = 6, bot id = 8454294847)
+2025-09-11 21:54:02,036 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:54:02,037 | WARNING | Sleep for 4.853031 seconds and try again... (tryings = 7, bot id = 8454294847)
+2025-09-11 21:54:21,466 | INFO | Connection established (tryings = 8, bot id = 8454294847)
+2025-09-11 21:54:31,637 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [WinError 1236] The network connection was aborted by the local system
+2025-09-11 21:54:31,655 | WARNING | Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8454294847)
+2025-09-11 21:54:32,675 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:54:32,675 | WARNING | Sleep for 1.263776 seconds and try again... (tryings = 1, bot id = 8454294847)
+2025-09-11 21:54:33,955 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:54:33,956 | WARNING | Sleep for 1.740695 seconds and try again... (tryings = 2, bot id = 8454294847)
+2025-09-11 21:54:35,708 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:54:35,709 | WARNING | Sleep for 2.289634 seconds and try again... (tryings = 3, bot id = 8454294847)
+2025-09-11 21:54:37,993 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:54:37,995 | WARNING | Sleep for 2.938292 seconds and try again... (tryings = 4, bot id = 8454294847)
+2025-09-11 21:54:40,943 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:54:40,960 | WARNING | Sleep for 4.034310 seconds and try again... (tryings = 5, bot id = 8454294847)
+2025-09-11 21:54:45,005 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:54:45,006 | WARNING | Sleep for 5.056630 seconds and try again... (tryings = 6, bot id = 8454294847)
+2025-09-11 21:54:50,076 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-11 21:54:50,077 | WARNING | Sleep for 4.914208 seconds and try again... (tryings = 7, bot id = 8454294847)
+2025-09-11 21:55:16,028 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The semaphore timeout period has expired]
+2025-09-11 21:55:16,029 | WARNING | Sleep for 4.903231 seconds and try again... (tryings = 8, bot id = 8454294847)
+2025-09-11 21:55:41,972 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The semaphore timeout period has expired]
+2025-09-11 21:55:41,973 | WARNING | Sleep for 4.863544 seconds and try again... (tryings = 9, bot id = 8454294847)
+2025-09-11 21:56:07,908 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The semaphore timeout period has expired]
+2025-09-11 21:56:07,909 | WARNING | Sleep for 4.909503 seconds and try again... (tryings = 10, bot id = 8454294847)
+2025-09-11 21:56:26,752 | INFO | Connection established (tryings = 11, bot id = 8454294847)
+2025-09-12 09:41:19,133 | INFO | Bot ishga tushmoqda...
+2025-09-12 09:41:19,133 | INFO | Start polling
+2025-09-12 09:41:19,515 | INFO | Run polling for bot @Cambridge_qabul_bot id=8454294847 - 'Cambridge School qabul'
+2025-09-12 09:41:20,018 | INFO | Asked source question to user Миркомил (5710687813)
+2025-09-12 09:41:20,019 | INFO | Update id=31749044 is handled. Duration 375 ms by bot id=8454294847
+2025-09-12 09:41:31,163 | ERROR | send_admin_new_user_partial failed
+Traceback (most recent call last):
+  File "C:\Dasturlash-2\Cambirdge_bot\main.py", line 404, in send_admin_new_user_partial
+    await bot.send_message(ADMIN_ID, text, parse_mode="Markdown")
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\bot.py", line 2854, in send_message
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\bot.py", line 482, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: chat not found
+2025-09-12 09:41:31,451 | INFO | Saved quick source for 5710687813: 📢 Telegram
+2025-09-12 09:41:31,457 | INFO | Update id=31749045 is handled. Duration 686 ms by bot id=8454294847
+2025-09-12 09:41:36,649 | INFO | Update id=31749046 is handled. Duration 1546 ms by bot id=8454294847
+2025-09-12 09:41:36,680 | INFO | Asked source question to user Master (6460533244)
+2025-09-12 09:41:36,680 | INFO | Update id=31749047 is handled. Duration 562 ms by bot id=8454294847
+2025-09-12 09:41:38,355 | INFO | Update id=31749048 is handled. Duration 250 ms by bot id=8454294847
+2025-09-12 09:41:40,017 | INFO | Update id=31749049 is handled. Duration 516 ms by bot id=8454294847
+2025-09-12 09:41:41,067 | INFO | Update id=31749050 is handled. Duration 389 ms by bot id=8454294847
+2025-09-12 09:41:42,427 | INFO | Update id=31749051 is handled. Duration 281 ms by bot id=8454294847
+2025-09-12 09:41:46,762 | INFO | Update id=31749052 is handled. Duration 266 ms by bot id=8454294847
+2025-09-12 09:56:41,732 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-09-12 09:56:41,732 | WARNING | Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8454294847)
+2025-09-12 09:56:53,181 | INFO | Connection established (tryings = 1, bot id = 8454294847)
+2025-09-12 11:02:36,785 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-09-12 11:02:36,807 | WARNING | Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8454294847)
+2025-09-12 11:02:48,419 | INFO | Connection established (tryings = 1, bot id = 8454294847)
+2025-09-12 11:02:54,016 | INFO | Asked source question to user Master (6460533244)
+2025-09-12 11:02:54,017 | INFO | Update id=31749053 is handled. Duration 343 ms by bot id=8454294847
+2025-09-12 11:28:02,144 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [WinError 1236] The network connection was aborted by the local system
+2025-09-12 11:28:02,150 | WARNING | Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8454294847)
+2025-09-12 11:28:03,163 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-09-12 11:28:03,163 | WARNING | Sleep for 1.319429 seconds and try again... (tryings = 1, bot id = 8454294847)
+2025-09-12 11:28:25,543 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The semaphore timeout period has expired]
+2025-09-12 11:28:25,543 | WARNING | Sleep for 1.830339 seconds and try again... (tryings = 2, bot id = 8454294847)
+2025-09-12 11:28:48,440 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The semaphore timeout period has expired]
+2025-09-12 11:28:48,441 | WARNING | Sleep for 2.405214 seconds and try again... (tryings = 3, bot id = 8454294847)
+2025-09-12 11:29:01,234 | INFO | Connection established (tryings = 4, bot id = 8454294847)
