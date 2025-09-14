@@ -1182,3 +1182,31 @@ aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: chat 
 2025-09-12 11:28:48,440 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The semaphore timeout period has expired]
 2025-09-12 11:28:48,441 | WARNING | Sleep for 2.405214 seconds and try again... (tryings = 3, bot id = 8454294847)
 2025-09-12 11:29:01,234 | INFO | Connection established (tryings = 4, bot id = 8454294847)
+2025-09-14 18:48:22,370 | INFO | Bot ishga tushmoqda...
+2025-09-14 18:48:22,371 | INFO | Start polling
+2025-09-14 18:48:22,762 | INFO | Run polling for bot @Cambridge_qabul_bot id=8454294847 - 'Cambridge School qabul'
+2025-09-14 18:49:30,309 | INFO | Asked source question to user Master (6460533244)
+2025-09-14 18:49:30,310 | INFO | Update id=31749055 is handled. Duration 1375 ms by bot id=8454294847
+2025-09-14 19:25:30,708 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-09-14 19:25:30,735 | WARNING | Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8454294847)
+2025-09-14 19:25:42,832 | INFO | Connection established (tryings = 1, bot id = 8454294847)
+2025-09-14 19:25:49,814 | INFO | Polling stopped
+2025-09-14 19:25:49,817 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-09-14 19:25:49,818 | WARNING | Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8454294847)
+2025-09-14 19:25:50,079 | INFO | Polling stopped for bot @Cambridge_qabul_bot id=8454294847 - 'Cambridge School qabul'
+2025-09-14 19:26:57,542 | INFO | Bot ishga tushmoqda...
+2025-09-14 19:26:57,561 | INFO | Start polling
+2025-09-14 19:26:57,947 | INFO | Run polling for bot @Cambridge_qabul_bot id=8454294847 - 'Cambridge School qabul'
+2025-09-14 20:01:29,173 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [WinError 64] The specified network name is no longer available
+2025-09-14 20:01:29,182 | WARNING | Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8454294847)
+2025-09-14 20:01:40,701 | INFO | Connection established (tryings = 1, bot id = 8454294847)
+2025-09-14 20:02:13,435 | INFO | Polling stopped
+2025-09-14 20:02:13,445 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-09-14 20:02:13,445 | WARNING | Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8454294847)
+2025-09-14 20:02:13,725 | INFO | Polling stopped for bot @Cambridge_qabul_bot id=8454294847 - 'Cambridge School qabul'
+2025-09-14 20:07:12,570 | INFO | Bot ishga tushmoqda...
+2025-09-14 20:07:12,571 | INFO | Start polling
+2025-09-14 20:07:12,983 | INFO | Run polling for bot @Cambridge_qabul_bot id=8454294847 - 'Cambridge School qabul'
+2025-09-14 20:15:29,991 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [WinError 64] The specified network name is no longer available
+2025-09-14 20:15:30,004 | WARNING | Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8454294847)
+2025-09-14 20:15:41,421 | INFO | Connection established (tryings = 1, bot id = 8454294847)

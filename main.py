@@ -430,5 +430,37 @@ async def main():
     finally:
         await bot.session.close()
 
+# -------------------------------
+# Run bot (Webhook mode for Render)
+# -------------------------------
+import os
+from aiohttp import web
+
+async def handle(request):
+    try:
+        update = await request.json()
+        await dp.feed_webhook_update(bot, update)
+    except Exception as e:
+        logger.exception("Webhook handle error: %s", e)
+    return web.Response()
+
+async def on_startup(app):
+    try:
+        webhook_url = f"https://{os.getenv('RENDER_EXTERNAL_HOSTNAME')}/webhook"
+        await bot.set_webhook(webhook_url)
+        logger.info("Webhook set to %s", webhook_url)
+    except Exception as e:
+        logger.exception("on_startup error: %s", e)
+
+async def on_shutdown(app):
+    await bot.session.close()
+    logger.info("Bot session closed")
+
+app = web.Application()
+app.router.add_post("/webhook", handle)
+app.on_startup.append(on_startup)
+app.on_shutdown.append(on_shutdown)
+
 if __name__ == "__main__":
-    asyncio.run(main())
+    web.run_app(app, host="0.0.0.0", port=int(os.getenv("PORT", 10000)))
+
